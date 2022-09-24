@@ -1,0 +1,71 @@
+
+/*Fonts and Colors*/
+
+
+
+body{
+  background: rgb(245,245,245);
+  color: green;
+  font-size: 25px;
+  font-family: Helvetica;
+}
+h1{
+  font-family: Courier;
+  color: red;
+  font-weight: lighter;
+  font-size: 60px;
+}
+h2 {
+  font-family: Courier;
+  color: pink;
+  font-weight: lighter;
+  font-size: 30px;
+}
+a {
+  color: 083d77;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+/* Custom Design */
+#banner{
+  background-image: url("https://picsum.photos/1000/600");
+  background-size: cover;
+  padding: 150px 0;
+  text-align: center;
+  color: black;
+}
+
+#banner  h1{
+  color: white;
+}
+
+#banner p{
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  opacity: 0.7;
+}
+
+.card{
+  text-align: center;
+  padding: 50px;
+}
+
+#footer {
+  background: black;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: white;
+}
